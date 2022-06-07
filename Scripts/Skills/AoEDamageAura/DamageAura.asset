@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbc0eb6f332e3b4c8ec875064bef73e, type: 3}
+  m_Name: DamageAura
+  m_EditorClassIdentifier: 
+  ID: 3
+  Name: DamageAura
+  Icon: {fileID: 21300000, guid: 40c51868d427dc54ca9fb66a8495711a, type: 3}
+  Description: On ground Damage
+  Range: 0
+  Cooldown: 8
+  CastTime: 0
+  PowerCost: 10
+  abilityAnimation: {fileID: 7400000, guid: 27eda9f3f990c6840a532a06a17f6e15, type: 3}
+  particle: {fileID: 1770134888874916, guid: b50a8493c26f1e7408aa0ece51d3fe00, type: 3}
+  Flags: 6
+  radius: 5
+  damagePerSecond: 500

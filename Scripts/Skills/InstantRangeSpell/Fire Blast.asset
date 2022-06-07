@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bc537c748a79ae4baccce5c342417b1, type: 3}
+  m_Name: Fire Blast
+  m_EditorClassIdentifier: 
+  ID: 5
+  Name: Fire Blast
+  Icon: {fileID: 21300000, guid: 6778de25923f63245835217c5e271b7b, type: 3}
+  Description: Instant 5000 Fire Damage
+  Range: 15
+  Cooldown: 5
+  CastTime: 0
+  PowerCost: 15
+  abilityAnimation: {fileID: -203655887218126122, guid: b53e53d4de608514c845b9e61fba8db0,
+    type: 3}
+  particle: {fileID: 141530, guid: eb79f0d7ca920984b97e851281bc6def, type: 3}
+  Flags: 14
+  Damage: 5000
